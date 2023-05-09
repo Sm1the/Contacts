@@ -1,0 +1,188 @@
+/*@import 'bootstrap.min.css';*/
+@import 'font-awesome/css/all.min.css';
+@import 'fonts/fonts.css';
+/*@font-face {
+	font-family: 'Neo Sans Pro';
+	src: url('fonts/NeoSansPro-Bold.eot');
+	src: local('fonts/Neo Sans Pro Bold'), local('NeoSansPro-Bold'),
+		url('fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+		url('fonts/NeoSansPro-Bold.woff') format('woff'),
+		url('fonts/NeoSansPro-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+*/
+/* COMMON STYLE */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+  font-weight: normal;
+}
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+a {
+  color: #202020;
+  text-decoration: none;
+}
+a:hover {
+  color: #145898;
+  text-decoration: underline;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {  
+}
+.cdg{
+  color: #282828;
+}
+/*delet*/
+.ibd div{
+  display: inline-block;
+}
+/* END COMMON STYLE */
+
+/* HEADER */
+.contakt_mail, .contakt_phone{
+  padding-left: 25px;
+  color: #9B9B9B;
+} 
+.contakt_mail{
+  background: url(images/header-email.svg) left center no-repeat;
+}
+.contakt_phone{
+  background: url(images/header-phone.svg) left center no-repeat;
+}
+/* END HEADER */
+
+/* MAIN SECTION */
+.glav_fon{  
+  background: url(imag/8458756_3801483.jpg) center center no-repeat;
+  background-size: cover;
+}
+.glav_text{
+  font-size: 3em;
+  font-weight: 700;
+  width: 660px;
+  padding: 100px 0 360px 0;
+}
+
+/* END MAIN SECTION */
+
+/* NEWS */
+.card_bg{
+	background-color: #F2F2F2;
+	border-radius: 5 px;
+}
+
+.bg_news {
+  display: inline-block;
+  margin: 10px 0;
+  width: 30%;
+  background-color: #F2F2F2;
+  padding: 30px 20px;
+  border-radius: 5px;
+}
+.text_end{
+  text-align: center;
+  font-size: 2em;
+}
+.text_end a{position: relative;}
+.text_end a:hover{text-decoration: none;}
+.text_end a:before{
+  display: block;
+  position: absolute;
+  content: "";
+  height: 2px; 
+  background-color: #145898;
+  width: 100px;
+  left: 0;
+  bottom: 0;
+}
+.link_news{
+  color: #145898;
+  text-decoration: none;
+}
+/* END NEWS */
+
+/* FOOTER */
+footer {
+  color: #fff;
+  background: #1b1b1b;
+}
+.menu_footer a{
+  color: #fff;
+}
+footer .contakt_mail, footer .contakt_phone{
+  padding-left: 25px;
+  color: #fff;
+} 
+footer .contakt_mail{
+  background: url(images/footer-email.svg) left center no-repeat;
+}
+footer .contakt_phone{
+  background: url(images/footer-phone.svg) left center no-repeat;
+}
+
+/* END FOOTER */
+
+/* MEDIA 
+@media (max-width: 1399px) {
+  body {background-color: yellow;}
+}
+@media (max-width: 1199px) {
+  body {background-color: red;}
+}
+
+@media (max-width: 991px) {
+  body {background-color: blue;}
+}
+
+@media (max-width: 767px) {
+  body {background-color: green;}
+}
+
+@media (max-width: 575px) {
+  body {background-color: black;}
+}
+/* END MEDIA */
+/* MEDIA */
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 575px) {
+}
+/* END MEDIA */
+
+
+
+
+
+
+
+
+
+.boder {
+  height: 100px;
+  width: 300px;
+  border: 1px solid #000;
+  margin: 20px auto;
+  padding: 50px;
+}
+.src{
+
+}
